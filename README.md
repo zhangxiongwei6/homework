@@ -17,7 +17,7 @@ def main():
     Main method that adds loopback interfaces
     """
 
-    add_oc_interface = """<config>
+    N9kv_interface = """<config>
     <interfaces xmlns="http://openconfig.net/yang/interfaces">
         <interface>
             <name>lo{id}</name>
@@ -59,7 +59,7 @@ def main():
                                                                                       loopback["id"],
                                                                                       device["address"]))
 
-        netconf_response = m.edit_config(target='running', config=add_oc_interface)
+        netconf_response = m.edit_config(target='running', config=N9kv_interface)
         # Parse the XML response
         print(netconf_response)
 
