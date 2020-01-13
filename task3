@@ -1,4 +1,4 @@
- - name: interface and ip
+ - name: config interface and ip
     hosts: N9kv
     connection: local
 
