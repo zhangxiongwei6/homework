@@ -1,29 +1,4 @@
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@zhangxiongwei6 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-tingtliu
-/
-devnet
-1
-00
- Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights
-devnet/tingtliu_configure_loopback1_python_nxapi.py / 
-@tingtliu tingtliu devnet files
-1533464 17 minutes ago
-53 lines (49 sloc)  1.28 KB
-  
-You're using code navigation to jump to definitions or references.
-Learn more or give us feedback
 import requests
 import json
 
