@@ -3,9 +3,6 @@
 import requests
 import json
 
-"""
-Modify these please
-"""
 #For NXAPI to authenticate the client using client certificate, set 'client_cert_auth' to True.
 #For basic authentication using username & pwd, set 'client_cert_auth' to False.
 client_cert_auth=False
