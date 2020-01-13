@@ -35,14 +35,7 @@ payload=[
     },
     "id": 2
   },
-  {
-    "jsonrpc": "2.0",
-    "method": "cli",
-    "params": {
-      "cmd": "no sh",
-      "version": 1
-    },
-    "id": 3
+  
   }
 ]
 
