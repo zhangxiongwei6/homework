@@ -1,0 +1,3 @@
+int a=12,b=96
+c=a*b 
+print("c");
